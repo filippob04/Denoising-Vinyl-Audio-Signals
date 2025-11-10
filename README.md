@@ -29,4 +29,5 @@ Prima di eseguire il programma, assicurarsi di avere:
 
 ### 📄 Note
 
-- ✉️ [Baldini Filippo](mailto:6393212@studenti.unige.it)
+✉️ [Baldini Filippo](mailto:6393212@studenti.unige.it)
+🔗 [Aulaweb](https://2025.aulaweb.unige.it/mod/page/view.php?id=64900)
