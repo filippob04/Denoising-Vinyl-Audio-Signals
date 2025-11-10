@@ -2,24 +2,31 @@
 
 💻 Computer Science - UniGe 🇮🇹
 
-## 🧑‍💻 Owner
+## 🚀 Funzionalità
 
-- [Baldini Filippo](mailto:6393212@studenti.unige.it)
+- **🎤 A**
+- **🎶 B**
+- **💿 C**
+- **🖼️ D**
+
+## 📦 Dipendenze
+
+- []()
 
 ## ⚙️ Come Eseguire:
 
-```bash
-    Lorem Ipsum
+```zsh
+Lorem Ipsum
 ```
 
-### 📄 Documentazione:
+## 🧰 Configurazione
 
-```text
-    Lorem Ipsum
-```
+Prima di eseguire il programma, assicurarsi di avere:
 
-##### 🛠️ Funzionalita':
+-
 
-```text
-    Lorem Ipsum
-```
+## ▶️ Esecuzione
+
+### 📄 Note
+
+- ✉️ [Baldini Filippo](mailto:6393212@studenti.unige.it)
