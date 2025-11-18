@@ -7,8 +7,8 @@ Questo progetto si fissa l'obbiettivo di esplorare diversi metodi, in Python, pe
 ## 🚀 Funzionalità
 
 - **🎤 Acquisizione e Analisi:** Carica file audio `.wav` ed esegue un'analisi nel dominio tempo-frequenza utilizzando la **Short-Time Fourier Transform (STFT)**.
-- **🎶 Profilazione Calibrata:** Implementa un metodo robusto che "impara" il profilo del rumore da una sezione di audio specificata (es. gli ultimi `N` secondi del brano), garantendo una perfetta calibrazione del livello di gain tra il rumore e il segnale.
-- **💿 Sottrazione Spettrale:** Applica un algoritmo di "hard-floor" (`np.maximum`) per sottrarre la magnitudine del rumore dalla magnitudine del brano, fotogramma per fotogramma, e ricostruisce l'audio pulito riutilizzando la fase originale.
+- **🎶 Profilazione Calibrata:** Implementa un metodo robusto che "impara" il profilo del rumore da una sezione di audio specificata (es. gli ultimi `N` secondi del brano), garantendo una perfetta calibrazione del livello di gain tra il rumore e il segnale (`percentile`).
+- **💿 Sogliatura, Sottrazione Spettrale e Filtro di Wiener:** Applica diverse tipologie di filtraggi e confronta i risultati ottenuti.
 - **🖼️ Verifica e Output:** Genera plot di confronto (profili spettrali e spettrogrammi) per analizzare visivamente il segnale e l'efficacia della pulizia, salvando l'output come file `.wav` a 24-bit.
 
 ## 📦 Dipendenze
