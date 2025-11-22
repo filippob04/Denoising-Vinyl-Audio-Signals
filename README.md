@@ -1,4 +1,4 @@
-# 🎵 Progetto FESI - FESI 25-26
+# 🎵 Progetto FESI - A.A. 25-26
 
 💻 Computer Science - UniGe 🇮🇹
 
