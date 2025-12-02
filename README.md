@@ -8,7 +8,7 @@ Questo progetto si fissa l'obbiettivo di esplorare diversi metodi, in Python, pe
 
 - **🎤 Acquisizione e Analisi:** Carica file audio `.wav` ed esegue un'analisi nel dominio tempo-frequenza utilizzando la **Short-Time Fourier Transform (STFT)**.
 - **🎶 Profilazione Calibrata:** Implementa un metodo robusto che "impara" il profilo del rumore da una sezione di audio specificata (es. gli ultimi `N` secondi del brano), garantendo una perfetta calibrazione del livello di gain tra il rumore e il segnale (`percentile`).
-- **💿 Sogliatura, Sottrazione Spettrale e Filtro di Wiener:** Applica diverse tipologie di filtraggi e confronta i risultati ottenuti.
+- **💿 Sogliatura, Sottrazione Spettrale, Filtro di Wiener e semplice approccio nel dominio Wavelet :** Applica diverse tipologie di filtraggi e confronta i risultati ottenuti.
 - **🖼️ Verifica e Output:** Genera plot di confronto (profili spettrali e spettrogrammi) per analizzare visivamente il segnale e l'efficacia della pulizia, salvando l'output come file `.wav` a 24-bit.
 
 ## 📦 Dipendenze
@@ -21,6 +21,7 @@ Le principali librerie Python utilizzate sono:
 - [**Matplotlib**](https://matplotlib.org/): Per la generazione di tutti i grafici e spettrogrammi.
 - [**IPython**](https://ipython.org/): Per l'embedding di player audio direttamente nel notebook.
 - [**SciPy**](https://scipy.org/): Usato inizialmente per la lettura dei file `.wav`.
+- [**PyWavelets**](https://pywavelets.readthedocs.io/en/latest/index.html): Usato per l'applicazione di `denoise_wavelet`.
 
 ## ⚙️ Come Eseguire:
 
@@ -29,7 +30,7 @@ Le principali librerie Python utilizzate sono:
 # git clone ...
 
 # 2. Installa le dipendenze
-pip install librosa numpy soundfile matplotlib ipython scipy
+pip install librosa numpy soundfile matplotlib ipython scipy pywavelets
 
 # 3. Avvia Jupyter Notebook
 jupyter notebook
@@ -52,10 +53,9 @@ Prima di eseguire il programma, assicurarsi di configurare le costanti principal
 2.  Aprire il file `.ipynb` (es. `project.ipynb`) in Jupyter.
 3.  Configurare le costanti come descritto sopra.
 4.  Eseguire tutte le celle del notebook in ordine (es. _Kernel > Restart & Run All_).
-5.  Il notebook eseguirà l'analisi, la profilazione calibrata, la sottrazione spettrale e la verifica.
+5.  Il notebook eseguirà l'analisi, la profilazione calibrata e applichera' i filtri.
 6.  Il file audio pulito sarà disponibile nel percorso specificato dalla variabile `OUTPUT`.
 
 ### 📄 Note
 
 ✉️ [Email](mailto:6393212@studenti.unige.it) <br>
-🔗 [Aulaweb](https://2025.aulaweb.unige.it/mod/page/view.php?id=64900)
