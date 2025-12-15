@@ -25,12 +25,15 @@ Le principali librerie Python utilizzate sono:
 
 ```text
 PROJECT/
-├── PDF/                   # File PDF di supporto, fonti e citazioni
-├── code/project.ipynb     # Python Notebook del progetto
-└── dataSet/data/           # Cartella contenente i/o
-│   ├── inputFile.wav      # Segnale audio di testing
-│   ├── noise.wav          # Sample del Rumore in analisi
-    └── output ...         # Svariati file di output (Sottrazione Spettrale, Filtro di Wiener, Wavelets...
+├── PDF/                   # Documentazione, paper e teoria
+├── code/
+│   └── project.ipynb      # Notebook di elaborazione
+└── dataSet/
+    ├── data/              # Input
+    │   ├── inputFile.wav  # Segnale da elaborare
+    │   └── noise.wav      # Profilo del rumore
+    └── output/            # Output
+        └── ...            # File audio elaborati (Sottrazione Spettrale, Wiener, Wavelets...)
 ```
 
 ## ⚙️ Come Eseguire:
