@@ -34,6 +34,18 @@ pip install librosa numpy soundfile matplotlib ipython scipy pywavelets
 jupyter notebook
 ```
 
+## 📂 Struttura del Progetto
+
+```text
+PROJECT/
+├── PDF/                   # File PDF di supporto, fonti e citazioni
+├── code/project.ipynb     # Python Notebook del progetto
+└── dataSet/data/           # Cartella contenente i/o
+│   ├── inputFile.wav      # Segnale audio di testing
+│   ├── noise.wav          # Sample del Rumore in analisi
+│   └── output ...         # Svariati file di output (Sottrazione Spettrale, Filtro di Wiener, Wavelets...
+```
+
 ## 🧰 Configurazione
 
 Prima di eseguire il programma, assicurarsi di configurare le costanti principali del notebook:
