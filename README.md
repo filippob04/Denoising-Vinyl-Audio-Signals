@@ -21,6 +21,18 @@ Le principali librerie Python utilizzate sono:
 - [**SciPy**](https://scipy.org/): Usato inizialmente per la lettura dei file `.wav`.
 - [**PyWavelets**](https://pywavelets.readthedocs.io/en/latest/index.html): Usato per l'applicazione di `denoise_wavelet`.
 
+## 📂 Struttura del Progetto
+
+```text
+PROJECT/
+├── PDF/                   # File PDF di supporto, fonti e citazioni
+├── code/project.ipynb     # Python Notebook del progetto
+└── dataSet/data/           # Cartella contenente i/o
+│   ├── inputFile.wav      # Segnale audio di testing
+│   ├── noise.wav          # Sample del Rumore in analisi
+    └── output ...         # Svariati file di output (Sottrazione Spettrale, Filtro di Wiener, Wavelets...
+```
+
 ## ⚙️ Come Eseguire:
 
 ```bash
@@ -32,18 +44,6 @@ pip install librosa numpy soundfile matplotlib ipython scipy pywavelets
 
 # 3. Avvia Jupyter Notebook
 jupyter notebook
-```
-
-## 📂 Struttura del Progetto
-
-```text
-PROJECT/
-├── PDF/                   # File PDF di supporto, fonti e citazioni
-├── code/project.ipynb     # Python Notebook del progetto
-└── dataSet/data/           # Cartella contenente i/o
-│   ├── inputFile.wav      # Segnale audio di testing
-│   ├── noise.wav          # Sample del Rumore in analisi
-│   └── output ...         # Svariati file di output (Sottrazione Spettrale, Filtro di Wiener, Wavelets...
 ```
 
 ## 🧰 Configurazione
