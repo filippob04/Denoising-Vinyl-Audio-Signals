@@ -1,6 +1,4 @@
-# 🎵 Progetto FESI - A.A. 25-26
-
-![Project Banner](dataSet/data/preview.png)
+# 🎵 FESI Project A.A. 25-26
 
 Questo progetto si fissa l'obbiettivo di esplorare diversi metodi, in Python, per la riduzione del rumore (de-noising) da registrazioni audio, con un focus specifico sulla rimozione di un rumore elettrico che affligge il mio giradischi.
 
@@ -56,6 +54,12 @@ Prima di eseguire il programma, assicurarsi di configurare le costanti principal
 5.  Il notebook eseguirà l'analisi, la profilazione calibrata e applichera' i filtri.
 6.  Il file audio pulito sarà disponibile nel percorso specificato dalla variabile `OUTPUT`.
 
-### 📄 Note
+## 👤 Autore
 
-✉️ [Email](mailto:6393212@studenti.unige.it) <br>
+**filippob04**
+
+- Studente di Informatica - Università degli Studi di Genova (UniGe)
+- Corso: Fondamenti dell'Elaborazione di Segnali e Immagini (FESI) A.A. 25-26
+- GitHub: [@filippob04](https://github.com/filippob04)
+
+---
